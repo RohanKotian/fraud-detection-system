@@ -1,2 +1,10 @@
-/mvnw text eol=lf
-*.cmd text eol=crlf
+* text=auto
+
+*.sh text eol=lf
+mvnw text eol=lf
+
+*.bat text eol=crlf
+mvnw.cmd text eol=crlf
+
+*.jar binary
+*.zip binary
